@@ -1,0 +1,28 @@
+# Data
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# Models
+models/*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Outputs
+reports/figures/*.png
+reports/submission*.csv
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.idea/
